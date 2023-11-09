@@ -1,0 +1,7 @@
+ 0: Leconte
+ 1: Boerner
+ 2: linnaeus
+ 3: armandi
+ 4: coleoptera
+ 5: acuminatus
+ 6: Linnaeus
