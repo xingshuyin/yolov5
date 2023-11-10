@@ -1,0 +1,1 @@
+python train_.py --img 640 --epochs 5 --data C:\Users\xingshuyin\python\datasets\disease_insect_detect\data.yaml --cfg .\models\yolov5s.yaml --hyp .\data\hyps\hyp.scratch-low.yaml  
