@@ -147,6 +147,8 @@ def voc_to_yolo(root_dir, label_path, img_path, types, labels, split=None):
             f.write(f'val: {os.path.join(root_dir, output_dir, "val")} \n')
 
         f.write(f'\n\n')
+        
+        f.write(f'nc: {len(labels.keys())}')
         f.write('names:\n')
         for k, v in labels.items():
             f.write(f" {v}: {k}\n")
